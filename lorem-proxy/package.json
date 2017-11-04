@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "micro-dev index.js",
+    "start": "micro index.js"
+  },
+  "dependencies": {
+    "got": "^7.1.0",
+    "micro": "^8.0.4",
+    "micro-dev": "^1.2.2",
+    "tunnel": "^0.0.5"
+  }
+}

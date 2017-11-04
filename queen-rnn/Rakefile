@@ -1,0 +1,11 @@
+namespace :docker do
+  desc ""
+  task :up do
+    system %{docker-compose up --build}
+  end
+
+  desc ""
+  task :bash do
+    system %{docker-compose run app}
+  end
+end
